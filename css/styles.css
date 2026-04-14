@@ -9,11 +9,14 @@ h1 {
   background-color: #20442e;
   padding: 20px;
   color: #ffffff;
+  width: 100%
 }
 
 .topnav a {
   color: #ffffff;
   text-decoration: none;
+  align-items: center;
+  margin: 10px;
 }
 
 .topnav a:visited {
@@ -29,6 +32,7 @@ h1 {
 footer {
   background-color: #20442e;
   padding: 20px;
+  width: 100%
 }
 
 .footer-links {
