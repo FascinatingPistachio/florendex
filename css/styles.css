@@ -11,6 +11,15 @@ h1 {
   color: #ffffff;
 }
 
+.topnav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.topnav a:visited {
+  color: #ffffff;
+}
+
 .nav-brand {
   display: flex;
   align-items: center;
