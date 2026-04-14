@@ -6,9 +6,39 @@ h1 {
 .topnav {
   display: flex;
   align-items: center;
+  background-color: #20442e;
+  padding: 20px;
+  color: #ffffff;
 }
 
 .nav-brand {
   display: flex;
   align-items: center;
+}
+
+/* Footer stuff for footer styling things */
+footer {
+  background-color: #20442e;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
