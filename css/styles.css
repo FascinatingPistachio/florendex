@@ -1,3 +1,14 @@
 h1 {
   color: green
 }
+
+/* Navigation bar stuff */
+.topnav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
