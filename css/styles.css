@@ -1,5 +1,17 @@
+body {
+  background-color: #2d6a4f;
+  color: #ffffff;
+}
+
+body a {
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  margin: 10px;
+}
+
 h1 {
-  color: green
+  color: #ffffff;
 }
 
 /* Navigation bar stuff */
@@ -9,7 +21,7 @@ h1 {
   background-color: #20442e;
   padding: 20px;
   color: #ffffff;
-  width: 100%
+  width: 100%;
 }
 
 .topnav a {
@@ -32,7 +44,7 @@ h1 {
 footer {
   background-color: #20442e;
   padding: 20px;
-  width: 100%
+  width: 100%;
 }
 
 .footer-links {
@@ -52,6 +64,6 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
