@@ -6,7 +6,7 @@ body {
 body a {
   color: #ffffff;
   text-decoration: none;
-  align-items: center;
+  float: center;
   margin: 10px;
 }
 
@@ -14,10 +14,15 @@ h1 {
   color: #ffffff;
 }
 
+/* Header Styling */
+
+header {
+  
+}
+
 /* Navigation bar stuff */
 .topnav {
   display: flex;
-  align-items: center;
   background-color: #20442e;
   padding: 20px;
   color: #ffffff;
@@ -27,7 +32,6 @@ h1 {
 .topnav a {
   color: #ffffff;
   text-decoration: none;
-  align-items: center;
   margin: 10px;
 }
 
@@ -37,7 +41,6 @@ h1 {
 
 .nav-brand {
   display: flex;
-  align-items: center;
 }
 
 /* Footer stuff for footer styling things */
