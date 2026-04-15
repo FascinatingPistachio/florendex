@@ -18,38 +18,67 @@ h1 {
 
 header {
   text-align: center;
+  font-family: "Playfair Display", serif;
+  margin-top: 200px;
+  z-index: 1;
+  background-image: url('https://images.pexels.com/photos/1196313/pexels-photo-1196313.jpeg');
+  padding: 20px;
+  width: 100%;
+  margin-left: -32px;
+  left: 0;
 }
 
 /* Navigation bar stuff */
 .topnav {
+  z-index: 1;
   display: flex;
   background-color: #20442e;
   padding: 20px;
   color: #ffffff;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
 .topnav a {
   color: #ffffff;
   text-decoration: none;
-  margin: 10px;
 }
 
 .topnav a:visited {
   color: #ffffff;
 }
 
+.nav-links {
+  margin-top: 45px;
+}
+
 .nav-brand {
   display: flex;
+}
+
+.nav-brand span {
+  margin-top: 45px;
 }
 
 /* Footer stuff for footer styling things */
 footer {
   background-color: #20442e;
   padding: 20px;
+  position: fixed;
   width: 100%;
-  position: absolute;
   bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
 }
 
 .footer-links {
@@ -57,15 +86,11 @@ footer {
   gap: 40px;
 }
 
-.footer-col {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-bottom {
   display: flex;
   align-items: center;
   color: #ffffff;
+  margin-top: 20px;
 }
 
 footer a {
