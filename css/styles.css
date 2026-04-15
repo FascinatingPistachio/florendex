@@ -17,7 +17,7 @@ h1 {
 /* Header Styling */
 
 header {
-  
+  text-align: center;
 }
 
 /* Navigation bar stuff */
@@ -48,6 +48,8 @@ footer {
   background-color: #20442e;
   padding: 20px;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-links {
