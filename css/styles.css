@@ -11,77 +11,71 @@ body {
 body a {
   color: #ffffff;
   text-decoration: none;
-  float: center;
   margin: 10px;
 }
 
 header h1 {
   color: #ffffff;
   font-size: 82px;
+  margin-top: 0;
 }
 
 header h3 {
   font-size: 42px;
+  margin-bottom: 100px;
 }
 
 /* Header Styling */
-
 header {
   text-align: center;
   font-family: "Playfair Display", serif;
-  margin-top: 100px;
-  z-index: 1;
   background-image: url('https://images.pexels.com/photos/1196313/pexels-photo-1196313.jpeg');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
   width: 100%;
-  left: 0;
 }
 
 /* Navigation bar stuff */
 .topnav {
-  z-index: 1;
-  display: flex;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
   background-color: #20442e;
-  padding: 20px;
+  padding: 20px 40px;
   color: #ffffff;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  font-size: 17;
-  position: fixed;
-  top: 0;
-  left: 0;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.topnav a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.topnav a:visited {
-  color: #ffffff;
-}
-
-.nav-links {
-  margin-top: 45px;
+  font-size: 17px; 
 }
 
 .nav-brand {
   display: flex;
+  align-items: center; 
+  gap: 15px; 
 }
 
 .nav-brand span {
-  margin-top: 45px;
+  font-family: 'Playfair Display', serif; 
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .btn {
+  display: inline-block; 
   background-color: #ffffff;
   color: #20442e;
   font-family: "Montserrat", sans-serif;
-  padding: 15px 80px 15px 80px;
+  padding: 15px 80px;
   border-radius: 17px;
   margin: 0px 70px 30px 70px;
   font-size: 36px;
@@ -91,30 +85,33 @@ header {
   opacity: 0.8;
 }
 
-/* Footer stuff for footer styling things */
+/* Footer stuff */
 footer {
   background-color: #20442e;
-  padding: 20px;
-  position: fixed;
+  padding: 40px 20px;
   width: 100%;
-  bottom: 0;
-  left: 0;
   display: flex;
   flex-direction: column; 
   align-items: center;    
   justify-content: center;
+  margin-bottom: 0;
+  position: sticky;
+  bottom: 0;
 }
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
   gap: 40px;
 }
 
 .footer-bottom {
   display: flex;
   align-items: center;
+  gap: 10px; 
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 footer a {
