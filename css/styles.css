@@ -37,6 +37,7 @@ header {
 }
 
 /* Navigation bar stuff */
+
 .topnav {
   display: flex; 
   justify-content: space-between; 
@@ -70,6 +71,12 @@ header {
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  transition-duration: 300ms;
+}
+
 .btn {
   display: inline-block; 
   background-color: #ffffff;
@@ -95,8 +102,6 @@ footer {
   align-items: center;    
   justify-content: center;
   margin-bottom: 0;
-  position: sticky;
-  bottom: 0;
 }
 
 .footer-links {
@@ -117,4 +122,16 @@ footer {
 footer a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.donateButton {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #20442e;
+  font-family: "Montserrat", sans-serif;
+  padding: 7.5px 15px;
+  border-radius: 10px;
+  margin: 30px 0;
+  font-size: 17px;
+  text-decoration: none !important;
 }
