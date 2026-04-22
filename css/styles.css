@@ -16,7 +16,6 @@ body a {
 }
 
 a:hover {
-  opacity: 0.8;
   text-decoration: underline;
   transition-duration: 300ms;
 }
@@ -55,6 +54,12 @@ a:hover {
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  transition-duration: 300ms;
+}
+
 .donateButton {
   display: inline-block;
   background-color: #ffffff;
@@ -85,13 +90,13 @@ header {
 
 header h1 {
   color: #ffffff;
-  font-size: 82px;
-  margin-top: 0;
+  font-size: 86px;
+  margin: 0 0 0px 0;
 }
 
 header h3 {
-  font-size: 42px;
-  margin-bottom: 100px;
+  font-size: 28px;
+  margin: 0 0 100px 0;
 }
 
 .species-btn {
@@ -101,8 +106,7 @@ header h3 {
   font-family: "Montserrat", sans-serif;
   padding: 15px 80px;
   border-radius: 17px;
-  margin: 0px 70px 30px 70px;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .species-btn:hover {
@@ -335,6 +339,18 @@ footer a {
   margin: 0 auto;
 }
 
+.bee-badge {
+  display: inline-block;
+  background-color: #FAFFCA;
+  color: #FF2904;
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  border: solid #FF2904;
+}
+
 .species-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -375,19 +391,23 @@ footer a {
 }
 
 /* species detail page */
+.species-detail-wrapper {
+  background-color: #f9f6f0;
+  color: #000000;
+  padding: 60px 0;
+}
+
 .species-detail {
   max-width: 900px;
   margin: 0 auto;
   padding: 60px 40px;
 }
 
-.species-detail h1 {
+.species-detail .sdg-title {
   font-family: 'Playfair Display', serif;
-  font-size: 52px;
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
 }
-
-.species-detail .latin-name {
+.species-detail .sdg-latin {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 22px;
@@ -408,12 +428,6 @@ footer a {
   line-height: 1.8;
   opacity: 0.9;
   margin-bottom: 20px;
-}
-
-.species-detail h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  margin: 40px 0 15px 0;
 }
 
 .info-table {
