@@ -6,6 +6,7 @@ body {
   background-color: #2d6a4f;
   color: #ffffff;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body a {
@@ -14,49 +15,33 @@ body a {
   margin: 10px;
 }
 
-header h1 {
-  color: #ffffff;
-  font-size: 82px;
-  margin-top: 0;
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  transition-duration: 300ms;
 }
 
-header h3 {
-  font-size: 42px;
-}
-
-/* Header Styling */
-header {
-  text-align: center;
-  font-family: "Playfair Display", serif;
-  background-image: url('https://images.pexels.com/photos/1196313/pexels-photo-1196313.jpeg');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 20px;
-  width: 100%;
-}
-
-/* Navigation bar stuff */
-
+/* nav bar */
 .topnav {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #20442e;
   padding: 20px 40px;
   color: #ffffff;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  font-size: 17px; 
+  font-size: 17px;
 }
 
 .nav-brand {
   display: flex;
-  align-items: center; 
-  gap: 15px; 
+  align-items: center;
+  gap: 15px;
 }
 
 .nav-brand span {
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Playfair Display', serif;
   font-size: 24px;
 }
 
@@ -70,14 +55,47 @@ header {
   text-decoration: none;
 }
 
-.nav-links a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-  transition-duration: 300ms;
+.donateButton {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #20442e !important;
+  font-family: "Montserrat", sans-serif;
+  padding: 7.5px 15px;
+  border-radius: 10px;
+  margin: 0 10px;
+  font-size: 17px;
+  text-decoration: none !important;
 }
 
-.btn {
-  display: inline-block; 
+.donateButton:hover {
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+
+/* header / hero */
+header {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-image: url('https://images.pexels.com/photos/1196313/pexels-photo-1196313.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  width: 100%;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 82px;
+  margin-top: 0;
+}
+
+header h3 {
+  font-size: 42px;
+  margin-bottom: 100px;
+}
+
+.species-btn {
+  display: inline-block;
   background-color: #ffffff;
   color: #20442e;
   font-family: "Montserrat", sans-serif;
@@ -87,25 +105,174 @@ header {
   font-size: 36px;
 }
 
-.btn:hover {
+.species-btn:hover {
   opacity: 0.8;
+  text-decoration: none !important;
 }
 
-/* Footer stuff */
+/* featured flora section */
+.featured-flora {
+  background-color: #f9f6f0;
+  width: 100%;
+  color: #20442e;
+  padding: 100px 20px 140px 20px;
+}
+
+.flora-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin: 0 0 60px 0;
+}
+
+.featured-flora-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f6f0;
+}
+
+.flora-card {
+  border: 4px solid #20442e;
+  border-radius: 16px;
+  width: 320px;
+  position: relative;
+  background-color: #f9f6f0;
+}
+
+.card-header {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.card-header h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  margin: 0;
+  color: #000000;
+}
+
+.card-header h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  margin: 5px 0 0 0;
+  color: #000000;
+  font-weight: 600;
+}
+
+.flora-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  padding: 20px 20px 40px 20px;
+  text-align: center;
+}
+
+.card-body p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #666666;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+.learn-more {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #20442e;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #2d6a4f;
+  opacity: 1 !important;
+}
+
+/* mission section */
+.our-mission {
+  background-color: #2d6a4f;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.mission-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin: 0 0 40px 0;
+  color: #ffffff;
+}
+
+.mission-box {
+  background-color: #f9f6f0;
+  color: #2d6a4f;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 50px 60px 50px;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  position: relative;
+}
+
+.mission-box p {
+  margin: 0 0 30px 0;
+}
+
+.mission-learn-more {
+  position: absolute;
+  bottom: -17px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  background-color: #2d6a4f;
+  color: #ffffff !important;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.mission-learn-more:hover {
+  background-color: #20442e;
+  opacity: 1 !important;
+  text-decoration: none !important;
+}
+
+/* footer */
 footer {
   background-color: #20442e;
   padding: 40px 20px;
   width: 100%;
   display: flex;
-  flex-direction: column; 
-  align-items: center;    
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-bottom: 0;
 }
 
 .footer-links {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
@@ -113,7 +280,7 @@ footer {
 .footer-bottom {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   color: #ffffff;
   margin-top: 30px;
 }
@@ -123,28 +290,163 @@ footer a {
   text-decoration: none;
 }
 
-.donateButton {
-  display: inline-block;
-  background-color: #ffffff;
-  color: #20442e;
-  font-family: "Montserrat", sans-serif;
-  padding: 7.5px 15px;
-  border-radius: 10px;
-  margin: 30px;
-  font-size: 17px;
-  text-decoration: none !important;
+/* page header used on inner pages */
+.page-header {
+  background-color: #20442e;
+  padding: 60px 40px;
+  font-family: 'Playfair Display', serif;
 }
 
-.featured-flora {
-  background-color: #f9f6f0;
+.page-header h1 {
+  font-size: 52px;
+  margin: 0 0 10px 0;
+}
+
+.page-header p {
+  font-size: 18px;
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* about page */
+.about-page {
+  padding: 60px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-page h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin: 40px 0 15px 0;
+}
+
+.about-page p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+/* species index page */
+.species-page {
+  padding: 60px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.species-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.species-card {
+  background-color: #20442e;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.species-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin: 0 0 5px 0;
+}
+
+.species-card h4 {
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+  opacity: 0.75;
+}
+
+.species-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin: 0 0 15px 0;
+}
+
+.species-card a {
+  font-size: 13px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+/* species detail page */
+.species-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.species-detail h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  margin: 0 0 5px 0;
+}
+
+.species-detail .latin-name {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 22px;
+  opacity: 0.75;
+  margin: 0 0 30px 0;
+}
+
+.species-detail img {
   width: 100%;
-  color: #20442e;
-  padding: 100px 20px; 
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 30px;
 }
 
-.flora-title {
-  text-align: center; 
-  font-family: 'Playfair Display', serif; 
-  font-size: 48px;
-  margin: 0; 
+.species-detail p {
+  font-size: 16px;
+  line-height: 1.8;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.species-detail h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin: 40px 0 15px 0;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.info-table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.info-table td:first-child {
+  font-weight: 600;
+  width: 180px;
+  opacity: 0.75;
+}
+
+/* stub / coming soon pages */
+.stub-page {
+  padding: 100px 40px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.stub-page h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.stub-page p {
+  font-size: 18px;
+  opacity: 0.8;
 }

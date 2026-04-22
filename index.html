@@ -3,61 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florendex | Flora Index</title> <!--Title for stuff-->
-    
+    <title>Florendex | Home</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
-    
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" type="image/x-icon" href="img/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.svg">
 </head>
 
 <body>
 
 <div class="topnav">
     <div class="nav-brand">
-         <img src="img/logo.svg" height="100" alt="Florendex Logo">
-         <span style="font-family: 'Playfair Display', serif;">Florendex</span>
+        <img src="/img/logo.svg" height="100" alt="Florendex Logo">
+        <span>Florendex</span>
     </div>
     <div class="nav-links">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#team">Meet the Team</a>
-        <a href="#species">Species Index</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-        <a href="#donate" class="donateButton" style="color: #20442e;">Donate</a>
+        <a class="active" href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/team.html">Meet the Team</a>
+        <a href="/species.html">Species Index</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/donate.html" class="donateButton">Donate</a>
     </div>
 </div>
+
 <main>
     <header>
         <h1>Welcome to Florendex</h1>
-        <h3 style="margin-bottom: 100px;">Documenting the world's flowering plant species</h3>
-        <a href="#species" class="btn">Explore species index</a>
+        <h3>Documenting the world's flowering plant species</h3>
+        <a href="/species.html" class="species-btn">Explore species index</a>
     </header>
-<div class="featured-flora">
-    <h2 class="flora-title">Featured Flora</h2>
-</div>
-</main>
-<footer>
-  <div class="footer-links">
-    <a class="active" href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#team">Meet the Team</a>
-    <a href="#species">Species Index</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
-    <a href="#donate">Donate</a>
-    <a href="#legal">Legal</a>
-    <a href="#terms">Terms of Service</a>
-  </div>
 
-  <div class="footer-bottom">
-      <img src="img/logo.svg" height="40" alt="Florendex Logo">
-      <span style="margin-right: 5px;">Florendex</span>
-      <span>2026 &copy; Florendex Ltd</span>
-  </div>
+    <div class="featured-flora">
+        <h2 class="flora-title">Featured Flora</h2>
+        <div class="featured-flora-grid">
+
+            <div class="flora-card">
+                <div class="card-header">
+                    <h3>Summer Snowflake</h3>
+                    <h4>Leucojum aestivum</h4>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Leucojum_aestivum02.jpg/250px-Leucojum_aestivum02.jpg" alt="Summer Snowflake">
+                <div class="card-body">
+                    <p>Leucojum aestivum, commonly called the summer snowflake, is a plant species widely cultivated as an ornamental. Found across Europe and western Asia.</p>
+                    <a href="/species/summersnowflake.html"><button class="learn-more">Learn More</button></a>
+                </div>
+            </div>
+
+            <div class="flora-card">
+                <div class="card-header">
+                    <h3>Cornish Heath</h3>
+                    <h4>Erica vagans</h4>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Erica_vagans2_2601.JPG/250px-Erica_vagans2_2601.JPG" alt="Cornish Heath">
+                <div class="card-body">
+                    <p>Erica vagans, the Cornish heath or wandering heath, is a species of flowering plant in the family Ericaceae, native to Ireland, Cornwall, western France and Spain.</p>
+                    <button class="learn-more">Learn More</button>
+                </div>
+            </div>
+
+            <div class="flora-card">
+                <div class="card-header">
+                    <h3>Spring Gentian</h3>
+                    <h4>Gentiana verna</h4>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Gentiana_verna.jpg/250px-Gentiana_verna.jpg" alt="Spring Gentian">
+                <div class="card-body">
+                    <p>Gentiana verna, the spring gentian, is one of the smallest members of its family, normally only growing to a height of a few centimetres. Known for its striking blue flowers.</p>
+                    <button class="learn-more">Learn More</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="our-mission">
+        <h2 class="mission-title">Our Mission</h2>
+        <div class="mission-box">
+            <p>Florendex exists to document and celebrate the diversity of flowering plant species across the world. We believe that understanding flowers is the first step toward protecting them — and the pollinators that depend on them.</p>
+            <a href="/about.html" class="mission-learn-more">Learn More</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/team.html">Meet the Team</a>
+        <a href="/species.html">Species Index</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/donate.html">Donate</a>
+        <a href="/legal.html">Legal</a>
+        <a href="/terms.html">Terms of Service</a>
+    </div>
+    <div class="footer-bottom">
+        <img src="/img/logo.svg" height="40" alt="Florendex Logo">
+        <span style="margin-right: 5px;">Florendex</span>
+        <span>2026 &copy; Florendex Ltd</span>
+    </div>
 </footer>
 
 </body>
