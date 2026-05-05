@@ -1,15 +1,21 @@
-Copyright (c) 2026 Fascinating Pistachio. All Rights Reserved.
+Copyright (c) 2026 Florendex Ltd. All Rights Reserved.
 
-PROJECT: Florendex (Unit 15 Coursework)
+PROJECT: Florendex - An Educational Flowering Plant Index
 
-This repository contains the source code and data for Florendex, a floral species index developed as part of academic coursework. This project is made public for educational display and peer review only.
+Florendex is an educational resource that compiles information, imagery, and research from various sources. This repository contains the source code and organizational structure of Florendex, developed as part of academic coursework and made public for educational purposes.
+
+INTELLECTUAL PROPERTY & ATTRIBUTION:
+Florendex sources content from external publications, photographers, botanists, and scientific literature. All external sources are properly attributed. Respect the licensing and attribution requirements of individual resources and original content creators.
 
 USAGE RIGHTS:
-1. INSPIRATION: You are encouraged to use the design concepts, UI layouts, and organizational structures of this index as inspiration for your own original projects. 
-2. ATTRIBUTION: If this project significantly informs the structure or design of your own work, you must provide a clear "Inspired by" credit to "Fascinating Pistachio" with a link to the original Florendex repository.
-3. RESTRICTIONS: You may NOT replicate the Florendex codebase, content, or visual likeness in its entirety. Redistribution, commercial use, or submission of this code (in whole or in part) as your own academic work is strictly prohibited.
+1. EDUCATIONAL USE: You may use Florendex content for personal, educational, and non-commercial purposes with appropriate attribution.
+2. DESIGN & CODE INSPIRATION: You are encouraged to use the design concepts, UI layouts, and organizational structures as inspiration for your own original projects.
+3. ATTRIBUTION: If this project significantly informs your work, please provide credit to "Florendex" or "Fascinating Pistachio" with a link to the original repository.
+4. RESTRICTIONS: You may not claim this project as your own or submit it (in whole or in part) as original academic work. Commercial use or redistribution of the complete project is not permitted without permission.
 
-LIABILITY:
+DISCLAIMER OF LIABILITY:
+While we strive for accuracy, Florendex is provided for educational purposes only. Information about flowering plants is compiled from various sources and may not be complete or error-free. Users are responsible for verifying information through additional research.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
