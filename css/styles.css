@@ -525,8 +525,9 @@ footer a {
 }
 
 .blog-author {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+  display: block;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
   object-fit: cover;
 }
