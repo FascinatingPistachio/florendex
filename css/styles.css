@@ -499,3 +499,34 @@ footer a {
 .sdg-back-link {
   color: #000000;
 }
+
+.blog-header {
+  padding: 15px 20px;
+  text-align: left;
+  background-color: #2d6a4f;
+  color: #f3f1eb;
+}
+
+.blog-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 12px;
+}
+
+.blog-body h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.blog-body p {
+  grid-column: 1 / -1;
+  margin: 8px 0 0;
+}
+
+.blog-author {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
