@@ -526,8 +526,9 @@ footer a {
 
 .blog-author {
   display: block;
-  width: 32px !important;
-  height: 32px !important;
+  width: 64px !important;
+  height: 64px !important;
   border-radius: 50% !important;
   object-fit: cover;
+  margin: 8px 0 0 16px;
 }
