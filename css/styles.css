@@ -512,6 +512,10 @@ footer a {
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 12px;
+  background-color: #2d6a4f;
+  color: #f3f1eb;
+  padding: 15px 20px;
+  text-align: center;
 }
 
 .blog-body h4 {
